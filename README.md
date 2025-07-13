@@ -1,12 +1,39 @@
-# React + Vite
+# NLP Text Cleaner (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight and interactive web application for cleaning and preprocessing text. Users can customize preprocessing steps such as lowercasing, removing stopwords, punctuation removal, and lemmatization — all in real time.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Paste and clean raw text
+- Preprocessing options:
+  - Lowercasing
+  - Stopword removal
+  - Lemmatization
+  - Punctuation removal
+- View original vs. cleaned text side by side
+- Tabbed interface with:
+  - Text comparison
+  - Word/token statistics
+  - Preprocessing summary
+- Download cleaned text as a `.txt` file
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React with Vite
+- Tailwind CSS
+- Fetch API
+- NLP Text Preprocessing (backend, deployed externally)
+
+## Screenshots
+
+![Screenshot](./screenshot1.png)
+
+![Screenshot](./screenshot2.png)
+
+## Getting Started
+
+```bash
+git clone https://github.com/ravi18kumar2021/nlp-text-cleaner.git
+cd nlp-text-cleaner
+npm install
+npm run dev
